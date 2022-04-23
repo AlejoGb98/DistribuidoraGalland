@@ -43,6 +43,11 @@ body
     transition: all 0.8s;
 }
 
+.elementosNav li:hover
+{
+    transform: scale(1.2);
+}
+
 
 .imgLogo
 {
@@ -51,6 +56,11 @@ body
     transition: all 0.8s;
 }
 
+.imgLogo:hover
+{
+    transform: scale(1.1);
+
+}
 
 ul li
 {
@@ -107,6 +117,11 @@ ul li a
     
 }
 
+.botonReg:hover
+{
+    transform: scale(1.2);
+    background-color: rgba(5, 128, 31, 1);
+}
 
 .botonReg p
 {
@@ -179,6 +194,11 @@ ul li a
     transition: all 0.8s;
 }
 
+.imgCards:hover
+{
+    transform: scale(1.2);
+    box-shadow: 1px 14px 14px 6px rgba(0,0,0,0.7);
+}
 
 /* CONTACTO */
 
@@ -260,6 +280,10 @@ ul li a
     height: 30px;
 }
 
+.button
+{
+    margin-left: 20px;
+}
 
 /* FOOTER */
 .barraFooter
@@ -288,6 +312,10 @@ ul li a
     transition: all 0.8s;
 }
 
+.elementosFoot li:hover
+{
+    transform: scale(1.2);
+}
 
 
 /* MEDIAS QUERIES */
