@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body
+{
+    background-image: url(../Imagenes/imagen-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+/* Barra Navegacion */
+.barraNav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100px;
+    width: auto;
+    flex-wrap: wrap;
+
+}
+
+.elementosNav
+{
+    display: flex;
+    font-size: 25px;
+}
+
+.elementosNav li
+{
+    margin: 25px;
+    transition: all 0.8s;
+}
+
+
+.imgLogo
+{
+    width: auto;
+    height: 100px;
+    transition: all 0.8s;
+}
+
+
+ul li
+{
+    list-style: none;
+}
+
+ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* HOME */
+.pagPrinc
+{
+
+    margin-left: 150px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+}
+
+.contenedorH1
+{
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 15px;
+    width: 400px;
+    
+  
+}
+
+.contenedorH1 h1
+{
+    font-size: 35px;
+    color: white;
+    font-weight: lighter;
+    word-break: break-word;
+}
+
+.botonReg
+{
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    background-color: rgba(5, 128, 31, 0.75);
+    border-radius: 25px;
+    transition: all 0.8s;
+    font-size: 35px;
+    
+}
+
+
+.botonReg p
+{
+    color: white;
+    font-size: 30px;
+}
+
+.botonReg p a
+{
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* QUIENES SOMOS */
+.quienesSomos
+{
+    height: fit-content;
+    width: 50%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(250, 215, 200, 0.75);
+    border-radius: 25px;
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.h1Quienesomos
+{
+    margin: 10px;
+
+}
+
+
+.pQuienesomos p
+{
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/* MARCAS */
+
+.marcas
+{
+    height: fit-content;
+    width: 70%;
+    background-color: rgba(250, 215, 200, 0.75);
+    border-radius: 25px;
+    margin: 60px auto 60px auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.imgCards
+{
+    width: auto;
+    height: 200px;
+    margin: 50px;
+    border: solid 2px rgba(0, 0, 0, 0.75); 
+    border-radius: 50%;
+    transition: all 0.8s;
+}
+
+
+/* CONTACTO */
+
+.contactanos
+{
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(250, 215, 200, 0.75);
+    border-radius: 25px;
+    margin: 40px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    align-items: center;
+    
+}
+
+.contactanosH1 h1
+{
+    font-size: 30px;
+    margin: 20px auto;
+    font-weight: bolder;
+}
+
+.infoContactanos
+{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.infoContactanos h3
+{
+    font-size: 25px;
+}
+
+.iconoContactanos
+{
+    width: auto;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.mapa iframe
+{
+    width: 600px;
+    height: 450px;
+}
+
+/* REGISTRO */
+
+.formularioRegistro
+{
+    height: 550px;
+    width: 400px;
+    background-color: rgba(250, 215, 200, 0.75);
+    display: flexbox;
+    flex-direction: column;
+    margin: 40px auto;
+    padding: 20px;
+    align-content: center;
+    border-radius: 30px;
+}
+
+.formulario
+{
+    margin: 20px;
+}
+
+#novedadesP
+{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.inputForm
+{
+    height: 30px;
+}
+
+
+/* FOOTER */
+.barraFooter
+{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    bottom: 0;
+}
+
+.elementosFoot
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 15px;
+}
+
+.elementosFoot li
+{
+    display: inline;
+    position: relative;
+    transition: all 0.8s;
+}
+
+
+
+/* MEDIAS QUERIES */
+
+@media only screen and (max-width: 1024px) 
+{               
+    
+
+    .marcas
+    {
+        flex-wrap: wrap;
+        justify-items: center;
+    }       
+    
+    
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .elementosNav
+    {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 900px)
+{
+    .barraNav
+    {
+        height: fit-content;
+    }
+
+    .elementosNav li
+    {
+        margin: 15px;
+    }
+    
+    .pagPrinc
+    {
+        margin: 100px auto;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width: 768px)
+{
+  
+    .elementosNav
+    {
+        font-size: 15px;
+    }
+
+    .quienesSomos
+    {
+        padding: 50px;
+    }
+    
+    .elementosNav
+    {
+        font-size: 10px;
+    }
+    .elementosNav li
+    {
+        margin: 15px;
+    }
+
+    .imgCards
+    {
+        height: 120px;
+        margin: 25px;
+    }
+    
+    .formularioRegistro
+    {
+        width: fit-content;
+    }
+    
+    
+    .mapa iframe
+    {
+        width: 400px;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    
+    .contactanos h1
+    {
+        font-size: 20px;
+    }
+    
+    .infoContactanos h3
+    {
+        font-size: 10px;
+    }
+    
+    .infoContactanos .iconoContactanos
+    {
+        width: auto;
+        height: 25px;
+        margin-right: 5px;
+    }
+
+    .contenedorH1
+    {
+        width: fit-content;
+    }
+
+    .contenedorH1 h1
+    {
+       font-size: 15px;
+    }
+    
+    .botonReg p
+    {
+        font-size: 15px;
+    }
+    
+    .quienesSomos
+    {
+        margin-top: 50px ;
+
+    } 
+    .pQuienesomos p
+    {
+        font-size: 15px;
+    }
+
+    #novedadesP
+    {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 450px)
+{
+    .mapa iframe
+    {
+        width: 250px;
+        height: 200px;
+    }
+
+    .elementosNav li
+    {
+        margin: 8px;
+    }
+
+
+    .inputForm
+    {
+        height: 12px;
+    }
+
+}
+
