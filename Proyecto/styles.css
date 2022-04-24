@@ -88,13 +88,12 @@ ul li a
 
 .contenedorH1
 {
-    background-color: rgba(0, 0, 0, 0.75);
+    background: rgb(5,128,31);
+    background: linear-gradient(315deg, rgba(5,128,31,0.75) 10%, rgba(0,0,0,0.75) 80%);
     border-radius: 20px;
     padding: 30px;
     margin: 15px;
     width: 400px;
-    
-  
 }
 
 .contenedorH1 h1
@@ -110,7 +109,8 @@ ul li a
     height: fit-content;
     width: fit-content;
     padding: 20px;
-    background-color: rgba(5, 128, 31, 0.75);
+    background: rgb(5,128,31);
+    background: linear-gradient(315deg, rgba(5,128,31,0.75) 60%, rgba(0,0,0,0.75) 95%);
     border-radius: 25px;
     transition: all 0.8s;
     font-size: 35px;
