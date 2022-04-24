@@ -309,12 +309,11 @@ ul li a
 {
     display: inline;
     position: relative;
-    transition: all 0.8s;
 }
 
 .elementosFoot li:hover
 {
-    transform: scale(1.2);
+    transform: scale(0.9); g
 }
 
 
