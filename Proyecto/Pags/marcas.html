@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="../../Imagenes/logo-favi.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
     <script src="https://kit.fontawesome.com/1ee3fdd66c.js" crossorigin="anonymous"></script>
@@ -16,83 +17,124 @@
 <body>
 
     <header>
-        <nav class="barraNav">
-            <div class="logo-nav">
-                <a href="#">
-                    <img class="imgLogo" src="../../Imagenes/Logo.png" alt="logo-nav">
+        <nav class="navbar navbar-expand-lg navbar-light barraNav">
+            <div class="container-fluid">
+              <a href="#">
+                <img src="../../Imagenes/Logo.png" alt="Logo" class="imgLogo ms-5">
                 </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse me-5 justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link elementosNav ms-3" href="../index.html">Home</a>
+                  <a class="nav-link elementosNav ms-3" href="./quienesomos.html">Quienes Somos</a>
+                  <a class="nav-link elementosNav ms-3" aria-current="page" href="#">Marcas</a>
+                  <a class="nav-link elementosNav ms-3" href="./contacto.html">Contacto</a>
+                  <a class="nav-link elementosNav ms-3" href="./registro.html">Registro</a>
+                </div>
+              </div>
             </div>
-            <ul class="elementosNav">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./quienesomos.html">Quienes Somos</a></li>
-                <li><a href="#">Marcas</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./registro.html">Registro</a></li>
-            </ul>
-        </nav>
+          </nav>
     </header>
 
     <main>
-        <section class="marcas">
-            <div class="cardMarcas">
-               <a href="https://www.molinocanuelas.com.uy/" target="_blank">
-                   <img src="../../Imagenes/Logos/Canuelas.png" class="imgCards" alt="Cañuelas">
-                </a>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
             </div>
-
-            <div class="cardMarcas">
-                <a href="https://www.claldy.com.uy/es/" target="_blank">
-                    <img src="../../Imagenes/Logos/Claldy.png" class="imgCards" alt="Claldy">
-                </a>
+            <div class="carousel-inner w-auto">
+              <div class="carousel-item active">
+                <img src="../../Imagenes/Logos/Canuelas.png" class="d-block imgCards" alt="...">
+                <div class="bg-success carousel-caption d-none d-md-block rounded-pill" style="--bs-bg-opacity: .5;">
+                  <h5 class="fw-bold fs-1">Cañuelas</h5>
+                  <p class="fw-normal fs-4">Elaboramos y comercializamos productos alimenticios tanto para las necesidades de la familia moderna como para el mercado industrial.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../../Imagenes/Logos/Claldy.png" class="d-block w-50" alt="...">
+                <div class="bg-success carousel-caption d-none d-md-block rounded-pill" style="--bs-bg-opacity: .5;">
+                  <h5 class="fw-bold fs-1">Claldy</h5>
+                  <p class="fw-normal fs-4">Claldy tiene una fuerte tradición que se remonta a sus orígenes cooperativistas y a la llegada de familias inmigrantes alemanas que desde su comienzo vieron crecer a la compañía hasta transformarse en un importante miembro y exportador de la industria láctea uruguaya.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../../Imagenes/Logos/Los Dos Carlitos.png" class="d-block imgCards" alt="...">
+                <div class="bg-success carousel-caption d-none d-md-block rounded-pill" style="--bs-bg-opacity: .5;">
+                  <h5 class="fw-bold fs-1">Los Dos Carlitos</h5>
+                  <p class="fw-normal fs-4">Artesanos por naturaleza.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../../Imagenes/Logos/Los Nietitos.png" class="d-block imgCards" alt="...">
+                <div class="bg-success carousel-caption d-none d-md-block rounded-pill" style="--bs-bg-opacity: .5;">
+                  <h5 class="fw-bold fs-1">Los Nietitos</h5>
+                  <p class="fw-normal fs-4">Nos esforzamos permanentemente en pos de la innovación y la calidad con el objetivo de satisfacer a los consumidores y los mercados de Uruguay y el mundo.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../../Imagenes/Logos/Monte Cudine.png" class="d-block imgCards" alt="...">
+                <div class="bg-success carousel-caption d-none d-md-block rounded-pill" style="--bs-bg-opacity: .5;">
+                  <h5 class="fw-bold fs-1">Monte Cudine</h5>
+                  <p class="fw-normal fs-4">Desde nuestros inicios, hace ya 140 años, hemos acompañado con nuestros productos a varias generaciones de consumidores uruguayos.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../../Imagenes/Logos/Sadia.png" class="d-block imgCards" alt="...">
+                <div class="bg-success carousel-caption d-none d-md-block rounded-pill" style="--bs-bg-opacity: .5;">
+                  <h5 class="fw-bold fs-1">Sadia</h5>
+                  <p class="fw-normal fs-4">Cuando se trata de alimentos, invertimos en el verdadero sabor e ingredientes de calidad y en las relaciones transparentes con nuestros socios.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../../Imagenes/Logos/Sarubbi.png" class="d-block imgCards" alt="...">
+                <div class="bg-success carousel-caption d-none d-md-block rounded-pill" style="--bs-bg-opacity: .5;">
+                  <h5 class="fw-bold fs-1">Sarubbi</h5>
+                  <p class="fw-normal fs-4">Desde 1925 somos una empresa dirigida en forma directa por cuatro generaciones de la familia Sarubbi. Lo que se inició como una pequeña fábrica hoy es una gran empresa.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../../Imagenes/Logos/Zubizarreta.png" class="d-block imgCards" alt="...">
+                <div class="bg-success carousel-caption d-none d-md-block rounded-pill" style="--bs-bg-opacity: .5;">
+                  <h5 class="fw-bold fs-1">Bodega Zubizarreta</h5>
+                  <p class="fw-normal fs-4">Decidir personalmente el momento de cada cosecha, vigilar con calma la fermentación, degustar, etiquetar manualmente y recomenzar, son las claves de un saber hacer que mantenemos invariable desde nuestros comienzos.</p>
+                </div>
+              </div>
             </div>
-
-            <div class="cardMarcas">
-                <a href="https://www.losdoscarlitos.com.uy/" target="_blank">
-                    <img src="../../Imagenes/Logos/Los Dos Carlitos.png" class="imgCards" alt="LosDosCarlitos">
-                </a>
-            </div>
-               
-            <div class="cardMarcas">
-                <a href="https://losnietitos.com.uy/" target="_blank">
-                    <img src="../../Imagenes/Logos/Los Nietitos.png" class="imgCards" alt="LosNietitos">
-                </a>
-            </div>
-
-            <div class="cardMarcas">
-                <a href="http://www.montecudine.com.uy/" target="_blank">
-                    <img src="../../Imagenes/Logos/Monte Cudine.png" class="imgCards" alt="MonteCudine">
-                </a>
-            </div>
-
-            <div class="cardMarcas">
-                <a href="https://sadia.uy/" target="_blank">
-                    <img src="../../Imagenes/Logos/Sadia.png" class="imgCards" alt="Sadia">
-                </a>
-            </div>
-
-            <div class="cardMarcas">
-                <a href="http://sarubbi.com.uy/" target="_blank">
-                    <img src="../../Imagenes/Logos/Sarubbi.png" class="imgCards" alt="Sarubbi">
-                </a>
-            </div>
-
-            <div class="cardMarcas">
-                <a href="http://www.bodegazubizarreta.com.uy/" target="_blank">
-                    <img src="../../Imagenes/Logos/Zubizarreta.png" class="imgCards" alt="Zubizarreta">
-                </a>
-            </div>
-
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </section>
     </main>
 
-    <footer class="barraFooter">
-        <ul class="elementosFoot">
-            <li><a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-phone fa-xl"></i></a></li>
-        </ul>
+    <footer class="barraFooter container-fluid">
+        <ul class="nav justify-content-center mt-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-phone fa-xl"></i></a>
+              </li>
+          </ul>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
