@@ -216,8 +216,8 @@ body
 
 .formularioRegistro
 {
-    height: 550px;
-    width: 400px;
+    height: fit-content;
+    width: fit-content;
     background-color: rgba(250, 215, 200, 0.75);
     display: flexbox;
     flex-direction: column;
