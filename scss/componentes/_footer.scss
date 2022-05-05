@@ -1,0 +1,17 @@
+.barraFooter
+{
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    bottom: 0;
+
+    .nav li i
+    {
+        color: white;
+    }
+
+    .nav li:hover
+    {
+        transform: scale(0.9);
+    }
+}
