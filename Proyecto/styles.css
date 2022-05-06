@@ -197,6 +197,7 @@ body
 .infoContactanos h3
 {
     font-size: 25px;
+    font-weight: 800;
 }
 
 .iconoContactanos
@@ -241,6 +242,7 @@ body
 .inputForm
 {
     height: 30px;
+    font-weight: 800;
 }
 
 .button
