@@ -1,0 +1,36 @@
+.barraNav
+{
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: 'Poppins', sans-serif;;
+
+    .imgLogo
+    {
+        width: auto;
+        height: 100px;
+        transition: all 0.8s;
+    }
+
+    .imgLogo:hover
+    {
+        transform: scale(1.1);
+    }
+
+}
+
+.navbar-light .navbar-nav .nav-link 
+{
+    color: white;
+    font-size: 25px;
+    transition: all 0.8s;
+
+    .navbar-light .navbar-nav .nav-link:hover
+    {
+        transform: scale(1.2);
+        color: white;
+    }    
+}
+
+.navbar-light .navbar-toggler-icon 
+{
+    background-image: url(../../Imagenes/menuhamb.png);
+}

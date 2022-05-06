@@ -1,0 +1,150 @@
+@media only screen and (max-width: 1030px)
+{
+    
+}
+
+
+@media only screen and (max-width: 900px)
+{
+    .barraNav
+    {
+        height: fit-content;
+    }
+    
+    .imgCards
+    {
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 768px)
+{
+  
+    .navbar-light .navbar-nav .nav-link
+    {
+        font-size: 20px;
+    }
+
+    .quienesSomos
+    {
+        padding: 15px;
+    }
+    
+    .pagPrinc
+    {
+        margin: 100px auto;
+    }
+
+    .elementosNav
+    {
+        font-size: 10px;
+    }
+    .elementosNav li
+    {
+        margin: 15px;
+    }
+
+    
+    .formularioRegistro
+    {
+        width: fit-content;
+    }
+    
+    
+    .mapa iframe
+    {
+        width: 400px;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    
+    .contactanos h1
+    {
+        font-size: 20px;
+    }
+    
+    .infoContactanos h3
+    {
+        font-size: 10px;
+    }
+    
+    .infoContactanos .iconoContactanos
+    {
+        width: auto;
+        height: 25px;
+        margin-right: 5px;
+    }
+
+    .contenedorH1
+    {
+        width: fit-content !important;
+        
+        h1
+        {
+            font-size: 15px !important;
+        }
+    }
+
+    
+    .botonReg
+    {
+        p
+        {
+            font-size: 15px !important;
+        }
+    }
+    
+    .quienesSomos
+    {
+        margin-top: 50px ;
+
+    } 
+
+    .pQuienesomos p
+    {
+        font-size: 15px;
+    }
+
+    #novedadesP
+    {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 450px)
+{
+    .mapa iframe
+    {
+        width: 250px;
+        height: 200px;
+    }
+
+    .navbar-light .navbar-nav .nav-link
+    {
+        font-size: 15px;
+    }
+
+
+    .inputForm
+    {
+        height: 12px;
+    }
+
+    .imgCards
+    {
+        width: 300px;
+        height: 300px;
+    }
+
+    .carousel-item
+    {
+        height: 50vh;
+    }
+}
+

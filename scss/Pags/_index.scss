@@ -1,0 +1,56 @@
+.pagPrinc
+{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin: 100px 0px 100px 120px;
+
+    .contenedorH1
+    {
+        background: rgb(5,128,31);
+        background: linear-gradient(315deg, rgba(5,128,31,0.75) 10%, rgba(0,0,0,0.75) 80%);
+        border-radius: 20px;
+        padding: 30px;
+        margin: 15px;
+        width: 400px;
+
+        h1
+        {
+            font-size: 35px;
+            color: white;
+            font-weight: lighter;
+            word-break: break-word;
+        }
+    }
+
+    .botonReg
+    {
+        height: fit-content;
+        width: fit-content;
+        padding: 20px;
+        background: rgb(5,128,31);
+        background: linear-gradient(315deg, rgba(5,128,31,0.75) 60%, rgba(0,0,0,0.75) 95%);
+        border-radius: 25px;
+        transition: all 0.8s;
+        font-size: 35px;
+
+        p
+        {
+            color: white;
+            font-size: 30px;
+
+            a
+            {
+                color: white;
+                text-decoration: none;
+            }   
+        }
+    }
+
+    .botonReg:hover
+    {
+        transform: scale(1.2);
+        background-color: rgba(5, 128, 31, 1);
+    }
+}
