@@ -1,15 +1,13 @@
 .pagPrinc
 {
-    display: flex;
-    flex-direction: column;
+    @extend %flex-column-center;
     width: fit-content;
-    align-items: center;
     margin: 100px 0px 100px 120px;
 
     .contenedorH1
     {
         background: rgb(5,128,31);
-        background: linear-gradient(315deg, rgba(5,128,31,0.75) 10%, rgba(0,0,0,0.75) 80%);
+        background: linear-gradient(315deg, map-get($colores, verde75) 10%, map-get($colores, negro75) 80%);
         border-radius: 20px;
         padding: 30px;
         margin: 15px;
@@ -18,7 +16,7 @@
         h1
         {
             font-size: 35px;
-            color: white;
+            color: map-get($colores, letrablanca);
             font-weight: lighter;
             word-break: break-word;
         }
@@ -29,20 +27,20 @@
         height: fit-content;
         width: fit-content;
         padding: 20px;
-        background: rgb(5,128,31);
-        background: linear-gradient(315deg, rgba(5,128,31,0.75) 60%, rgba(0,0,0,0.75) 95%);
+        background: map-get($colores, verde75);
+        background: linear-gradient(315deg, map-get($colores, verde75) 60%, map-get($colores, negro75) 95%);
         border-radius: 25px;
         transition: all 0.8s;
         font-size: 35px;
 
         p
         {
-            color: white;
+            color: map-get($colores, letrablanca);
             font-size: 30px;
 
             a
             {
-                color: white;
+                color: map-get($colores, letrablanca);
                 text-decoration: none;
             }   
         }
