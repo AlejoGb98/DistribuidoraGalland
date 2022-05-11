@@ -1,0 +1,37 @@
+//Maps//
+$colores:
+(
+    beige75: rgba(250, 215, 200, 0.75),
+    negro75: rgba(0,0,0,0.75),
+    verde75: rgba(5,128,31,0.75),
+    letrablanca: #fff,
+    letranegra: #000
+);
+
+//Extend//
+%flex-column-center
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex-row-center
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+//Mixin//
+
+@mixin grid ($rows, $columns, $rowgap)
+{
+    display: grid;
+    grid-template-rows: $rows ;
+    grid-template-columns: $columns ;
+    row-gap: $rowgap;
+}
+

@@ -1,14 +1,20 @@
 .barraFooter
 {
     height: fit-content;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: map-get($colores, negro75);
     position: fixed;
     bottom: 0;
-
-    .nav li i
+    
+    ul  
     {
-        color: white;
+        @extend %flex-row-center;
+
+        li i
+        {
+            color: map-get($colores, letrablanca);
+        }
     }
+
 
     .nav li:hover
     {

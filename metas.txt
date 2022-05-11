@@ -1,0 +1,15 @@
+Elementos que utilice
+
+Description:
+		Desde el 2000 nos dedicamos a la distribucion de alimentos de grandes marcas, 
+		desde supermercados hasta los quioscos de Young y otras localidades.
+
+Keywords: 
+	    En todos los htmls:
+	  			distribuidora
+	  			young 
+	  			alimentos
+	  			comercio
+
+Optimice todas las imagenes para que pesen menos de 200kB. La unica que no pude bajar a 200kB fue "imagen-home". La agregue 4 veces a
+tinypng, pero me la llego a bajar nada mas de 3mb al peso actual de 873kB.

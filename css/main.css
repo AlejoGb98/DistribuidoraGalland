@@ -1,3 +1,15 @@
+.pagPrinc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.barraFooter ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center; }
+
 .barraNav {
   background-color: rgba(0, 0, 0, 0.75);
   font-family: 'Poppins', sans-serif; }
@@ -9,12 +21,13 @@
     transform: scale(1.1); }
 
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: #fff;
   font-size: 25px;
   transition: all 0.8s; }
-  .navbar-light .navbar-nav .nav-link .navbar-light .navbar-nav .nav-link:hover {
-    transform: scale(1.2);
-    color: white; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  transform: scale(1.2);
+  color: #fff; }
 
 .navbar-light .navbar-toggler-icon {
   background-image: url(../../Imagenes/menuhamb.png); }
@@ -35,16 +48,13 @@ body {
   background-color: rgba(0, 0, 0, 0.75);
   position: fixed;
   bottom: 0; }
-  .barraFooter .nav li i {
-    color: white; }
+  .barraFooter ul li i {
+    color: #fff; }
   .barraFooter .nav li:hover {
     transform: scale(0.9); }
 
 .pagPrinc {
-  display: flex;
-  flex-direction: column;
   width: fit-content;
-  align-items: center;
   margin: 100px 0px 100px 120px; }
   .pagPrinc .contenedorH1 {
     background: #05801f;
@@ -55,27 +65,51 @@ body {
     width: 400px; }
     .pagPrinc .contenedorH1 h1 {
       font-size: 35px;
-      color: white;
+      color: #fff;
       font-weight: lighter;
       word-break: break-word; }
   .pagPrinc .botonReg {
     height: fit-content;
     width: fit-content;
     padding: 20px;
-    background: #05801f;
+    background: rgba(5, 128, 31, 0.75);
     background: linear-gradient(315deg, rgba(5, 128, 31, 0.75) 60%, rgba(0, 0, 0, 0.75) 95%);
     border-radius: 25px;
     transition: all 0.8s;
     font-size: 35px; }
     .pagPrinc .botonReg p {
-      color: white;
+      color: #fff;
       font-size: 30px; }
       .pagPrinc .botonReg p a {
-        color: white;
+        color: #fff;
         text-decoration: none; }
   .pagPrinc .botonReg:hover {
     transform: scale(1.2);
     background-color: #05801f; }
+
+.formularioRegistro {
+  height: fit-content;
+  width: fit-content;
+  background-color: rgba(250, 215, 200, 0.75);
+  box-shadow: 0px 1px 26px 6px rgba(0, 0, 0, 0.75);
+  margin: 20px auto 70px auto;
+  padding: 20px;
+  border-radius: 30px;
+  display: grid;
+  grid-template-rows: repeat(0, 1fr);
+  grid-template-columns: 1fr;
+  row-gap: 0; }
+  .formularioRegistro .formulario {
+    margin: 20px; }
+    .formularioRegistro .formulario .inputForm {
+      height: 30px;
+      font-weight: 800; }
+  .formularioRegistro #novedadesP {
+    font-weight: 800;
+    font-size: 20px; }
+  .formularioRegistro .button {
+    margin-left: 20px;
+    font-weight: 800; }
 
 @media only screen and (max-width: 900px) {
   .barraNav {

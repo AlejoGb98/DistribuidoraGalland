@@ -1,6 +1,6 @@
 .barraNav
 {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: map-get($colores, negro75);
     font-family: 'Poppins', sans-serif;;
 
     .imgLogo
@@ -19,16 +19,17 @@
 
 .navbar-light .navbar-nav .nav-link 
 {
-    color: white;
+    color: map-get($colores, letrablanca);
     font-size: 25px;
     transition: all 0.8s;
 
-    .navbar-light .navbar-nav .nav-link:hover
-    {
-        transform: scale(1.2);
-        color: white;
-    }    
 }
+
+.navbar-light .navbar-nav .nav-link:hover
+{
+    transform: scale(1.2);
+    color: map-get($colores, letrablanca);
+}    
 
 .navbar-light .navbar-toggler-icon 
 {
