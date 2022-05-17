@@ -133,14 +133,7 @@ body
     position: relative;
 }
 
-.h1Quienesomos
-{
-    margin: 10px;
-
-}
-
-
-.pQuienesomos p
+.quienesSomos p
 {
     font-weight: 600;
     font-size: 25px;
@@ -239,11 +232,7 @@ body
     font-size: 20px;
 }
 
-.inputForm
-{
-    height: 30px;
-    font-weight: 800;
-}
+
 
 .button
 {

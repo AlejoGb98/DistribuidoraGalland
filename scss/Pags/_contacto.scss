@@ -1,0 +1,46 @@
+.contactanos
+{
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(250, 215, 200, 0.75);
+    border-radius: 25px;
+    margin: 40px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    align-items: center;
+    
+    h1
+    {
+        font-size: 30px;
+        margin: 20px auto;
+        font-weight: bolder;
+    }
+
+    .mapa iframe
+    {
+        width: 600px;
+        height: 450px;
+    }
+
+    .infoContactanos
+    {
+        display: flex;
+        align-items: flex-start;
+        margin: 10px;
+
+        .iconoContactanos
+        {
+            width: auto;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        h3
+        {
+            font-size: 25px;
+            font-weight: 800;
+        }
+    }
+}
