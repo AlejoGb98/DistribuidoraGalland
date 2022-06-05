@@ -1,4 +1,4 @@
-.pagPrinc {
+.pagPrinc, .error {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -169,6 +169,20 @@ body {
   .formularioRegistro .button {
     margin-left: 20px;
     font-weight: 800; }
+
+.error {
+  width: fit-content;
+  height: fit-content;
+  background: #05801f;
+  background: linear-gradient(315deg, rgba(5, 128, 31, 0.75) 10%, rgba(0, 0, 0, 0.75) 80%);
+  border-radius: 20px;
+  padding: 30px; }
+  .error .errorH2 {
+    font-size: 35px;
+    margin: 20px; }
+    .error .errorH2 .error404 {
+      font-size: 28px;
+      margin: 10px; }
 
 @media only screen and (max-width: 900px) {
   .barraNav {
