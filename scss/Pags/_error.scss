@@ -1,0 +1,22 @@
+.error
+{
+    @extend %flex-column-center;
+    width: fit-content;
+    height: fit-content;
+    background: rgb(5,128,31);
+    background: linear-gradient(315deg, map-get($colores, verde75) 10%, map-get($colores, negro75) 80%);
+    border-radius: 20px;
+    padding: 30px;
+
+    .errorH2
+    {
+        font-size: 35px;
+        margin: 20px;
+
+        .error404
+        {
+            font-size: 28px;
+            margin: 10px;
+        }
+    }
+}
