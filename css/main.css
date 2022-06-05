@@ -176,13 +176,16 @@ body {
   background: #05801f;
   background: linear-gradient(315deg, rgba(5, 128, 31, 0.75) 10%, rgba(0, 0, 0, 0.75) 80%);
   border-radius: 20px;
-  padding: 30px; }
+  padding: 30px;
+  margin: 250px auto; }
   .error .errorH2 {
     font-size: 35px;
+    color: #fff;
     margin: 20px; }
-    .error .errorH2 .error404 {
-      font-size: 28px;
-      margin: 10px; }
+  .error .error404 {
+    font-size: 25px;
+    color: #fff;
+    margin: 10px; }
 
 @media only screen and (max-width: 900px) {
   .barraNav {
@@ -210,7 +213,13 @@ body {
     width: fit-content; }
   .mapa iframe {
     width: 400px !important;
-    height: 350px !important; } }
+    height: 350px !important; }
+  .error {
+    margin: 150px auto; }
+  .errorH2 {
+    font-size: 25px !important; }
+  .error404 {
+    font-size: 15px !important; } }
 
 @media only screen and (max-width: 500px) {
   .contactanos h1 {

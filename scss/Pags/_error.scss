@@ -7,16 +7,20 @@
     background: linear-gradient(315deg, map-get($colores, verde75) 10%, map-get($colores, negro75) 80%);
     border-radius: 20px;
     padding: 30px;
+    margin: 250px auto;
 
     .errorH2
     {
         font-size: 35px;
+        color: map-get($colores, letrablanca);
         margin: 20px;
 
-        .error404
-        {
-            font-size: 28px;
-            margin: 10px;
-        }
+    }
+    
+    .error404
+    {
+        font-size: 25px;
+        color: map-get($colores, letrablanca);
+        margin: 10px;
     }
 }
